@@ -17,4 +17,3 @@ ray = fctn(srcArray[i], ray)
   }
 
   }
-
