@@ -9,7 +9,7 @@ function map (srcArray, fctn){
 }
 
 function reduce(srcArray, fctn, start){
-    let arr = (!!start) ? start : src[0];
+    let arr = (!!start) ? start : srcArray[0];
     let i = (!!start) ? 0 : 1
 
     for (; i < srcArray.length; i++){
