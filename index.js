@@ -15,5 +15,5 @@ function reduce (srcArray,fctn, starting){
   for (; i < array.length; i++) {
 ray = fctn(srcArray[i], ray)
   }
-
+return ray;
   }
