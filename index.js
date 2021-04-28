@@ -8,12 +8,12 @@ function map (srcArray, fctn){
   return arr;
 }
 
-function reduce(src, fnct, start){
+function reduce(srcArray, fctn, start){
     let arr = (!!start) ? start : src[0];
     let i = (!!start) ? 0 : 1
 
-    for (; i < src.length; i++){
-        arr = fnct(src[i], arr)
+    for (; i < srcArray.length; i++){
+        arr = fctn(src[i], arr)
     }
     return arr;
 }
