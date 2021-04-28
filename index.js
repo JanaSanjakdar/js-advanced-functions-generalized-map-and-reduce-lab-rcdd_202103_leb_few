@@ -1,4 +1,4 @@
 // Add your functions here
-function map (array, fctn){
+function map (srcArray, fctn){
   let result =[];
 }
