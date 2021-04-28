@@ -13,8 +13,8 @@ function reduce (srcArray,fctn, starting){
   let i = (!!start) ? 0: 1
 
   for (; i < array.length; i++) {
-
+ray = fctn(srcArray[i], ray)
   }
 
   }
-}
+
